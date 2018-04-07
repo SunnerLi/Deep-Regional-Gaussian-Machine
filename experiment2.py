@@ -1,4 +1,4 @@
-from region_gaussian import RegionGaussian
+from regionGaussian.layer import RegionGaussian
 from utils import flat_trans, train, test
 from matplotlib import pyplot as plt
 from torchvision import transforms

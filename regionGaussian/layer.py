@@ -44,7 +44,6 @@ if __name__ == '__main__':
     input2 = np.asarray(
         [[[[0.095, 0.205, 0.305], [0.395, 0.505, 0.605], [0.705, 0.795, 0.895]]]]
     )
-    # print(input2 - input1)
     input1 = Variable(torch.from_numpy(input1).float())
     result1 = net(input1)
     input2 = Variable(torch.from_numpy(input2).float())
